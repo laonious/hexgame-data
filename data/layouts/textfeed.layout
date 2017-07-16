@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="TaharezLook/StaticText" name="textfeed" >
+        <Property name="Area" value="{{0,1},{0,2},{0,189},{0,50}}" />
+        <Property name="Font" value="Jura-18" />
+        <Property name="Text" value="FPS:" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Property name="HorzScrollPageSize" value="176" />
+        <Property name="VertScrollPageSize" value="36" />
+        <Property name="HorzScrollDocumentSize" value="50" />
+        <Property name="VertScrollDocumentSize" value="24.6328" />
+    </Window>
+</GUILayout>

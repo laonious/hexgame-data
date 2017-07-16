@@ -1,0 +1,19 @@
+# a template character file
+# first, the name
+AI
+name Guard
+# now maxhp
+maxhp 100
+# speed
+speed 3
+# agility
+agility 3
+# model data
+#model data/meshes/girl.obj data/tiletextures/red.png
+#model data/meshes/guywithweaps.obj data/tiletextures/red.png
+model data/meshes/generic_character.dae data/tiletextures/red.png
+# weapon
+weapon data/characterfiles/bow.weapon
+# technique
+technique data/characterfiles/techniques/test.tech
+technique data/characterfiles/techniques/test2.tech

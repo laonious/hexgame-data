@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="TextLogRoot" >
+        <Property name="Area" value="{{0,0},{0,0},{1,-345},{1,-455}}" />
+        <Property name="Font" value="Jura-10" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Property name="VerticalAlignment" value="Bottom" />
+        <Window type="TaharezLook/Listbox" name="TextLog" >
+            <Property name="Area" value="{{0,0},{0,0},{0,450},{0,142}}" />
+            <Property name="Font" value="Jura-10" />
+            <Property name="Alpha" value="0.9" />
+            <Property name="VerticalAlignment" value="Bottom" />
+        </Window>
+    </Window>
+</GUILayout>

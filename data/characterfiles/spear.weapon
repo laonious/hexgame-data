@@ -1,0 +1,9 @@
+# a template weapon file
+name Spear
+# damage is a constant number at the moment
+damage 25 0
+# the weapon is either ranged or melee
+type melee
+# weapons have a minimum and maximum range
+minrange 1
+maxrange 2

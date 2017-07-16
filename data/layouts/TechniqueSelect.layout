@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="TaharezLook/FrameWindow" name="TechniqueSelectRoot" >
+        <Property name="Area" value="{{0,0},{0,0},{0.3,12},{0.3,134}}" />
+        <Property name="Alpha" value="0.9" />
+        <Property name="RollUpEnabled" value="false" />
+        <Property name="SizingEnabled" value="false" />
+        <Property name="VerticalAlignment" value="Centre" />
+        <Property name="HorizontalAlignment" value="Centre" />
+        <Property name="MouseInputPropagationEnabled" value="true" />
+        <Window type="TaharezLook/Button" name="SelectButton" >
+            <Property name="Area" value="{{0,2},{0,-4},{0,98},{0,28}}" />
+            <Property name="Font" value="Jura-13" />
+            <Property name="Text" value="Select" />
+            <Property name="VerticalAlignment" value="Bottom" />
+        </Window>
+        <Window type="TaharezLook/ScrollablePane" name="ScrollablePane" >
+            <Property name="Area" value="{{0,0},{0,0},{0,268},{0,255}}" />
+            <AutoWindow namePath="__auto_container__" >
+                <Property name="MouseInputPropagationEnabled" value="true" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_hscrollbar__" >
+                <Property name="AlwaysOnTop" value="true" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_vscrollbar__" >
+                <Property name="AlwaysOnTop" value="true" />
+            </AutoWindow>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="DefaultWindow" >
+        <Property name="Area" value="{{0,2},{0,1},{1,-562},{1,-401}}" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="TaharezLook/Listbox" name="Listbox" >
+            <Property name="Area" value="{{0,0},{0,0},{0,237},{0,198}}" />
+        </Window>
+    </Window>
+</GUILayout>

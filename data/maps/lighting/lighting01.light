@@ -1,0 +1,19 @@
+pointlights 2
+spotlights 1
+
+pointlight 0 diffuse 1.2
+pointlight 0 color 0.5 0.5 0.8
+pointlight 0 position 15 5 1
+pointlight 0 attenuationlinear 0.15
+
+pointlight 1 diffuse 1.2
+pointlight 1 color 0.5 0.5 0.8
+pointlight 1 position 0 10 1
+pointlight 1 attenuationlinear 0.15
+
+spotlight 0 diffuse 1.8
+spotlight 0 color 1. 1. 1.
+spotlight 0 position -2 50 0
+spotlight 0 direction 3 -15 2
+spotlight 0 attenuationlinear 0.05
+spotlight 0 cutoff 20

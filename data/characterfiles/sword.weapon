@@ -1,0 +1,9 @@
+# a template weapon file
+name Sword
+# damage is a constant number at the moment
+damage 35 0
+# the weapon is either ranged or melee
+# weapons have a minimum and maximum range
+type melee
+minrange 1
+maxrange 1

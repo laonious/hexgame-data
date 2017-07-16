@@ -1,0 +1,8 @@
+# a save file
+character data/characterfiles/Kenigson.char 1 6 0
+character data/characterfiles/temp.char 5 6 3
+character data/characterfiles/Roland.char 1 4 0
+character data/characterfiles/guard.char 5 4 3 
+character data/characterfiles/temp2.char 3 2 5
+character data/characterfiles/guard.char 2 4 3
+map data/maps/newmap.map

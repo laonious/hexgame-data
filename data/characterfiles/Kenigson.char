@@ -1,0 +1,16 @@
+# a template character file
+# first, the name
+name Kenigson
+# now maxhp
+maxhp 100
+# speed
+speed 4
+# agility
+agility 2
+# model data
+#model data/meshes/soldier.dae data/tiletextures/blue.png
+model data/meshes/generic_character.dae data/tiletextures/green.png
+#model data/meshes/boblampclean.md5mesh
+# weapon
+weapon data/characterfiles/spear.weapon
+technique data/characterfiles/techniques/test.tech

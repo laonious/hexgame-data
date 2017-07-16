@@ -1,0 +1,17 @@
+# a template character file
+# first, the name
+name Roland
+# now maxhp
+maxhp 100
+# speed
+speed 4
+# agility
+agility 2
+# model data
+#model data/meshes/guy.obj data/tiletextures/grey.png
+#model data/meshes/guywithweaps.obj data/tiletextures/red.png
+model data/meshes/generic_character.dae data/tiletextures/blue.png
+# weapon
+weapon data/characterfiles/sword.weapon
+
+technique data/characterfiles/techniques/firstaid.tech

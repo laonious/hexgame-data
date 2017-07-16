@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="MainMenu" >
+        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="TaharezLook/Button" name="NewGame" >
+            <Property name="Area" value="{{0,-2.5},{0,170},{0,172.5},{0,230}}" />
+            <Property name="Font" value="Jura-18" />
+            <Property name="Text" value="New Game" />
+            <Property name="TooltipText" value="New Game" />
+            <Property name="HorizontalAlignment" value="Centre" />
+        </Window>
+        <Window type="TaharezLook/Button" name="Quit" >
+            <Property name="Area" value="{{0,-0.5},{0,292},{0,174.5},{0,352}}" />
+            <Property name="Font" value="Jura-18" />
+            <Property name="Text" value="Quit" />
+            <Property name="TooltipText" value="Quit" />
+            <Property name="HorizontalAlignment" value="Centre" />
+        </Window>
+        <Window type="TaharezLook/Button" name="MapEditor" >
+            <Property name="Area" value="{{0,-1.5},{0,230},{0,173.5},{0,290}}" />
+            <Property name="Font" value="Jura-18" />
+            <Property name="Text" value="Map Editor" />
+            <Property name="TooltipText" value="Map Editor" />
+            <Property name="HorizontalAlignment" value="Centre" />
+        </Window>
+    </Window>
+</GUILayout>

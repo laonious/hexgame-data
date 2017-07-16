@@ -1,0 +1,9 @@
+# a template weapon file
+name Short Bow
+# the weapon is either ranged or melee
+# damage is a constant number at the moment followed by an aoe range
+damage 20 0
+# weapons have a minimum and maximum range
+type ranged
+minrange 2
+maxrange 4
